@@ -3,15 +3,15 @@ function subtract() {}
 function multiple() {}
 function divide() {}
 
-add(2,3) {
-  return 2 + 3
+function add(a, b) {
+  return a + b
 }
-subtract(2, 3) {
-  return 2 - 3
+subtract(a, b) {
+  return a - b
 }
-multiple(2, 3) {
-  return 2 * 3
+multiple(a, b) {
+  return a * b
 }
-divide(2, 3) {
-  return 2 / 3
+divide(a, b) {
+  return a / b
 }
